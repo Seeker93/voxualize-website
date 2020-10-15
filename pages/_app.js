@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css'
+import './styles.css'
 export default function MyApp({ Component, pageProps }) {
     return (<div>      
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -9,6 +10,9 @@ export default function MyApp({ Component, pageProps }) {
   
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="/client">Client</a>
         </li>
@@ -17,6 +21,9 @@ export default function MyApp({ Component, pageProps }) {
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/team">Team members</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/downloads">Downloads</a>
         </li>
  
     
