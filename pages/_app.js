@@ -2,28 +2,28 @@ import 'bootstrap/dist/css/bootstrap.css'
 import './styles.css'
 export default function MyApp({ Component, pageProps }) {
     return (<div>      
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="/">Voxualize</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a className="navbar-brand" href="/">Voxualize</a>
+    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
     </button>
   
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-          <a class="nav-link" href="/">Home</a>
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul className="navbar-nav mr-auto">
+      <li className="nav-item">
+          <a className="nav-link" href="/">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/client">Client</a>
+        <li className="nav-item">
+          <a className="nav-link" href="/client">Client</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/server">Server</a>
+        <li className="nav-item">
+          <a className="nav-link" href="/server">Server</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/team">Team members</a>
+        <li className="nav-item">
+          <a className="nav-link" href="/team">Team members</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/downloads">Downloads</a>
+        <li className="nav-item">
+          <a className="nav-link" href="/downloads">Downloads</a>
         </li>
  
     

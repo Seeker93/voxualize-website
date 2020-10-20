@@ -1,17 +1,24 @@
-export default function Team(){
-    return(
-        <div className="container mt-5">
-          <h1>Client</h1>
-          <h2 className="mt-5 mb-5 ">
-            Team members
+export default function Team() {
+  return (
+    <div className="container mt-5">
+      <h2 className="mt-5 mb-5 ">
+        Team members
           </h2>
-          <p className="description mb-5">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.   
-          </p>
+      <div className="container row justify-content-space-between ">
+        <h5 className="description mb-5 col">
+          Jonathan Weideman (WDMJON001)
+          </h5>
+
+        <h5 className="description mb-5 col">
+          Shuaib Parker (PRKSHU001) <br/>
+
+          <img src="shuaib.jpeg" height="200px" className="mt-5"/>
+          </h5> 
       
-    
-        </div>
-    
-        
-    )
-    }
+      </div>
+
+    </div>
+
+
+  )
+}
