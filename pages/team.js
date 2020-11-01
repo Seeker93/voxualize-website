@@ -1,9 +1,7 @@
 export default function Team() {
   return (
     <div className="container mt-5">
-      <h2 className="mt-5 mb-5 ">
-        Team members
-          </h2>
+
       <div className="container row justify-content-space-between ">
         <h5 className="description mb-5 col">
           Jonathan Weideman (WDMJON001)

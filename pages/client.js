@@ -1,7 +1,7 @@
 export default function Client() {
   return (
     <div className="container mt-5">
-      <h2>Client</h2>
+
       <h3 className="mt-5 mb-5 ">
         User-interface
       </h3>
