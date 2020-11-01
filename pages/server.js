@@ -1,6 +1,6 @@
 export default function Server(){
     return(
-    <div className="container mt-5">
+    <div className="container bg-light p-5">
     </div>
 )
     

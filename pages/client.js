@@ -1,8 +1,8 @@
 export default function Client() {
   return (
-    <div className="container mt-5">
+    <div className="container p-5 bg-light rounded mt-3">
 
-      <h3 className="mt-5 mb-5 ">
+      <h3>
         User-interface
       </h3>
       <p className="description mb-5">
