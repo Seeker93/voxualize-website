@@ -60,10 +60,16 @@ export default function Server() {
         </p>
         <h5><b>The time taken to capture and render a high-resolution screenshot</b></h5>
         <p> 
-          The FPS results on the front-end were fairly promising, showing FPS values in the 40s range which is well within the FPS range needed for user-interaction.
-          Increasing the LOD model size led to slight decreases in FPS but they were still well in the interactive range (above ~15 fps). Since the LOD models are unlikely to be very large in size, this was not a major concern.
-          These results suggested that as long as the downsampling and transmission of data was done adequately, the LOD model could always be rendered at interactive frame-rates, regardless of the size of the cube.
-          The bar graph below details these results.
+          The graph below shows the time taken to capture a screenshot on the server of the offsreen 
+          render of the full cube. It shows a linear increase in time as the size of the cube increases. 
+          We expected this result, as the time taken to render a volumetric data set is dependent on 
+          the processing power of the GPU that the rendering is done on. This test was conducted on a PC 
+          with a NVIDIA GeForce MX250 GPU, which has 4GBs of VRAM. A server will likely have access to much 
+          more powerful GPUs (which we recommend), which are becoming increasingly more affordable in todays
+          GPU market. The server could also link several of them into a cluster, which would allow for much 
+          greater graphical processing power. This will allow for much faster 
+          rendering of screenshots and it can be expected to handle much larger 
+          cubes with acceptable render times.
         </p>
         <div className="text-center">
         <img src="HQ-Time.png"/>
