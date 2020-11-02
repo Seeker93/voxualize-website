@@ -27,8 +27,8 @@ export default function Downloads() {
             <a href="wdmjon001/Literature_Review_WDMJON001.pdf" role="button" download className="btn btn-info mb-5">Download Jonathan's lit review</a>
             </div>
             <div className="col-sm">
-            <embed className="mb-5" src="prkshu001/prkshu001-final-project-paper-carta.pdf" type="application/pdf" /> <br/>
-            <a href="/prkshu001/PRKSHU001-literature-review.pdf" role="button" download className="btn btn-info mb-5">Download poster</a>
+            <embed className="mb-5" src="Poster.pdf" type="application/pdf" /> <br/>
+            <a href="Poster.pdf" role="button" download className="btn btn-info mb-5">Download poster</a>
             </div>
          </div>
         </div>
