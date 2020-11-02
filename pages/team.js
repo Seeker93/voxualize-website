@@ -11,7 +11,7 @@ export default function Team() {
 
         <h5 className="description mb-5 col">
           Shuaib Parker (PRKSHU001) <br/>
-          <img src="shuaib.jpeg" height="200px" className="mt-5"/>
+          <img src="shuaib.jpeg" height="300px" className="mt-5"/>
           </h5> 
       
       </div>

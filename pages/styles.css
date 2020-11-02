@@ -15,3 +15,8 @@
   .bg-navbar{
     background-color: darkslategrey;
   }
+
+  .border{
+    border-color: black !important;
+    border-width: 1.5px !important;
+  }
