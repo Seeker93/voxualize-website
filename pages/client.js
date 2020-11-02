@@ -9,7 +9,9 @@ export default function Client() {
         The user-interface is written in React, and is written as a single-page application. The diagram below is a screenshot of the user-interface after it has rendered an LOD model. The labels point out the key features of the user-interface.
       </p>
       <div className="h-50">
-        <img src="./full-ui.png" height="400" className="mb-5 " />
+        <div className="text-center">
+        <img className="border" src="./full-ui.png" height="400" className="mb-5 " />
+        </div>
         <ul>
          <li>A: File selector - Used for selecting the file to visualize</li>
          <li>B: Viewing Area - This is the main area used to view the cube. When interacting with the cube, the user sees a downsampled level-of-detail (LOD) model of the cube. When the user stops interacting with the cube for around 300ms, a high quality image is sent from the server, replacing the LOD model.</li>
@@ -36,8 +38,9 @@ export default function Client() {
       <h5>Server-to-client latency</h5>
       <p>The server-to-client latency showed workable speeds, but the latency linearly increased with cube size. This is a bit concerning when we consider having to render very large data cubes. It suggests that perhaps we need to rethink our downsampling approach.
         The graph below details these results.
-        <div className="text-center"></div>
-        <img src="latency.png"/>
+        <div className="text-center">
+        <img className="border" src="latency.png"/>
+        </div>
       </p>
       <h5 className="mt-5 mb-5">Frames-per-second</h5>
       <p> 
@@ -46,8 +49,10 @@ export default function Client() {
         These results suggested that as long as the downsampling and transmission of data was done adequately, the LOD model could always be rendered at interactive frame-rates, regardless of the size of the cube.
         The bar graph below details these results.
       </p>
-      <img src="fps.png"/>
+      <div className="text-center">
 
+      <img className="border" src="fps.png"/>
+    </div>
     </div>
 
 
