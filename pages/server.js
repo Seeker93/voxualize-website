@@ -1,6 +1,6 @@
 export default function Server() {
     return (
-      <div className="container mt-5">
+      <div className="container p-5 bg-light rounded mt-3">
         <h2><b>Server</b></h2>
         <p className="description mb-5">
           The server is written in C++. It is responsible for the following operations, depending 
