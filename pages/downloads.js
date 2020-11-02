@@ -1,13 +1,36 @@
 export default function Downloads() {
     return (
-        <div className="container mt-5">
-            <h1>Downloads</h1>
-            <p>Our project documents can be found below:</p>
-            <div className="row justify-content-space-between mt-5">
-            <button className="btn btn-primary mr-5"><a className="text-white" href="CARTA-volumetric-rendering-PRKSHU001-WDMJON001-revised.pdf">Proposal</a></button>
-            <button className="btn btn-primary mr-5"><a className="text-white" href="prkshu001/prkshu001-final-project-paper-carta.pdf"> Shuaib's paper</a></button>
-            <button className="btn btn-primary "><a className="text-white" href="prkshu001/prkshu001-final-project-paper-carta.pdf"> Jonathans's paper</a></button>
+        <div className="container mt-5 p-5 bg-light rounded">
+         <div className="row">
+            <div className="col-sm">
+             <embed className="mb-5" src="CARTA-volumetric-rendering-PRKSHU001-WDMJON001-revised.pdf" type="application/pdf" /> <br/>
+            <button className="btn btn-primary mr-5 mt-3 mb-5">Download proposal</button>
+          </div>
+
+            <div className="col-sm">
+            <embed className="mb-5" src="prkshu001/prkshu001-final-project-paper-carta.pdf" type="application/pdf" /> <br/>
+            <button className="btn btn-primary mr-5 mt-3 mb-5">Download Shuaib's Final paper</button>
             </div>
+            <div className="col-sm">
+            <embed className="mb-5" src="prkshu001/prkshu001-final-project-paper-carta.pdf" type="application/pdf" /> <br/>
+            <button className="btn btn-primary mr-5 mt-3 mb-5">Download Jonathans's Final paper</button>
+            </div>
+         </div>
+         <div className="row">
+            <div className="col-sm">
+             <embed className="mb-5" src="prkshu001/PRKSHU001-literature-review.pdf" type="application/pdf" /> <br/>
+            <button className="btn btn-primary mr-5 mt-3 mb-5">Download Shuaib's lit review</button>
+          </div>
+
+            <div className="col-sm">
+            <embed className="mb-5" src="prkshu001/prkshu001-final-project-paper-carta.pdf" type="application/pdf" /> <br/>
+            <button className="btn btn-primary mr-5 mt-3 mb-5">Download Jonathan's lit review</button>
+            </div>
+            <div className="col-sm">
+            <embed className="mb-5" src="prkshu001/prkshu001-final-project-paper-carta.pdf" type="application/pdf" /> <br/>
+            <button className="btn btn-primary mr-5 mt-3 mb-5">Download Poster</button>
+            </div>
+         </div>
         </div>
     )
 

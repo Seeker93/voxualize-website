@@ -1,4 +1,4 @@
-export default function Client() {
+export default function Server() {
     return (
       <div className="container mt-5">
         <h2><b>Server</b></h2>
@@ -73,3 +73,4 @@ export default function Client() {
   
     )
   }
+

@@ -3,15 +3,15 @@ import Head from 'next/head'
 export default function Home() {
   return (
     <div>
-      <header className="masthead">
-        <div className="container h-100 ">
+      <header >
+        <div className="container  h-100 mb-5">
           <div className="row h-100 align-items-center">
             <div className="col-12 text-center">
-              <h1 className="mt-5">
+              <h1 className="mt-5 text-white">
                 Voxualize
               </h1>
 
-              <p className="description mb-5">
+              <p className="description text-white mb-5">
                 <i>A hybrid approch to volume rendering</i>
               </p>
               <img src="./logo.png" height="200px" />
@@ -19,16 +19,16 @@ export default function Home() {
           </div>
         </div>
       </header>
-      <div className="container">
+      <div className="container bg-light rounded p-5">
 
-        <h2 className="mt-5">
+        <h2 className="bg-light">
           Problem statement:
       </h2>
         <p className="description">
           Astronomical data is rapidly increasing in both size and complexity. Most current vizualization tools are not adequately equipped to deal with this data boom. Current tools are often forced to load the entire data cube into memory which is practically impossible in most cases. Visualization tools often lack 3D rendering capabilities as well, further reducing their usefulness.
       </p>
         <h2 className="mt-5">
-          CARTA:
+          CARTA:  
       </h2>
         <p className="description">
           CARTA (Cube Analysis and Rendering Tool for Astronomy) is one of the leading astronomical visualization tools. It employs a client-server architecture that delegates the expensive processing and rendering to an enterprise-grade server, and exposes a web-based user-interface. The data cube is also downsampled before rendering allowing it to circumvent the memory problems present in most current solutions. CARTA however, has no 3D rendering capabilities. This project aims to implement a prototype that explores a scalable 3D rendering solution that can be integrated into CARTA.
@@ -65,7 +65,7 @@ export default function Home() {
         <div className="text-center mt-5 mb-5">
           <img src="sequence.png" ></img>
         </div>
-        <p className="description mb-5">
+        <p className="description">
           The client and server sections contain the specific details about their implementation.
       </p>
       </div>

@@ -1,9 +1,17 @@
 
-  .masthead {
-    width: 100vw;
-    margin-left:0;
-    background-image: url('https://images.unsplash.com/photo-1528731708534-816fe59f90cb?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1920&h=1080&fit=crop&ixid=eyJhcHBfaWQiOjF9');
-    background-size: cover;
-    background-position: center;
-    padding-bottom: 50px;
+
+
+  .master-background{
+    background-image: url('https://img.freepik.com/free-vector/space-with-stars-universe-space-infinity-background_78474-99.jpg?size=626&ext=jpg');
+    min-height: 100vh ;
+
+  }
+  
+  body,html{
+    margin:0;
+    width:100%;
+  }
+
+  .bg-navbar{
+    background-color: darkslategrey;
   }
