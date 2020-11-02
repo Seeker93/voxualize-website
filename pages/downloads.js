@@ -12,7 +12,7 @@ export default function Downloads() {
             <button className="btn btn-primary mr-5 mt-3 mb-5">Download Shuaib's Final paper</button>
             </div>
             <div className="col-sm">
-            <embed className="mb-5" src="prkshu001/prkshu001-final-project-paper-carta.pdf" type="application/pdf" /> <br/>
+            <embed className="mb-5" src="wdmjon001/WDMJON001-Final Paper.pdf" type="application/pdf" /> <br/>
             <button className="btn btn-primary mr-5 mt-3 mb-5">Download Jonathans's Final paper</button>
             </div>
          </div>
@@ -23,7 +23,7 @@ export default function Downloads() {
           </div>
 
             <div className="col-sm">
-            <embed className="mb-5" src="prkshu001/prkshu001-final-project-paper-carta.pdf" type="application/pdf" /> <br/>
+            <embed className="mb-5" src="wdmjon001/Literature_Review_WDMJON001.pdf" type="application/pdf" /> <br/>
             <button className="btn btn-primary mr-5 mt-3 mb-5">Download Jonathan's lit review</button>
             </div>
             <div className="col-sm">

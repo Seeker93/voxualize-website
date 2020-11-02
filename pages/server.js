@@ -4,7 +4,7 @@ export default function Server() {
         <h2><b>Server</b></h2>
         <p className="description mb-5">
           The server is written in C++. It is responsible for the following operations, depending 
-          on the remote precedure call made by the client:
+          on the remote procedure call made by the client:
         </p>
         <div className="h-50">
           <ul>
@@ -12,10 +12,10 @@ export default function Server() {
            <li><b>Level of detail (LOD) model generation </b>- the server is responsible for 
            downsampling the full data cube to a cube small enough to be rendered in the client's 
            internet browser. The default value is 10 mb but the user can change this at will 
-           (see client)</li>
+           (see client).</li>
            <li><b>Rendering the full data cube using offscreen rendering.</b></li>
            <li><b>Generating and encoding high resolution images </b> and continually streaming 
-           them to the client. The servers continually captures screenshots of the offscreen render,
+           them to the client. The server continually captures screenshots of the offscreen render,
             encodes them and streams them to the client.</li>  
          </ul>
          <div className="text-center">
@@ -43,8 +43,8 @@ export default function Server() {
         <h3 className="mt-5 mb-5">
           Results:
         </h3>
-        <h5>Time to Generate 10mb LOD model</h5>
-        <p> Our implementation of the LOD model generation was definitely the bottleneck of our system.
+        <h5><b>Time to generate 10mb LOD model</b></h5>
+        <p> The method we used to implement the LOD model generation turned out to be the bottleneck of our system.
           The algorithm executes sequentially, and a high-performant computer would likely show similar 
           increases in overhead as the size of the cube increases. Given more time, we would have parallelized
            this function, and instead of observing the linear speed up that we did, we would likely have achieved log(n) speedup.
@@ -58,7 +58,7 @@ export default function Server() {
           <img src="LOD-Time.png"/>
           </div>
         </p>
-        <h5>Frames-per-second</h5>
+        <h5><b>The time taken to capture and render a high-resolution screenshot</b></h5>
         <p> 
           The FPS results on the front-end were fairly promising, showing FPS values in the 40s range which is well within the FPS range needed for user-interaction.
           Increasing the LOD model size led to slight decreases in FPS but they were still well in the interactive range (above ~15 fps). Since the LOD models are unlikely to be very large in size, this was not a major concern.
@@ -66,7 +66,7 @@ export default function Server() {
           The bar graph below details these results.
         </p>
         <div className="text-center">
-        <img src="./HQ-Time.png"/>
+        <img src="HQ-Time.png"/>
         </div>
       </div>
   
