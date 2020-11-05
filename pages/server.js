@@ -19,7 +19,7 @@ export default function Server() {
             encodes them and streams them to the client.</li>  
          </ul>
          <div className="text-center">
-          <img className="border mb-3"  src="./LOD-HQ.jpg" height = "350" border="5"/> 
+          <img className="border mb-3"  src="./assets/LOD-HQ.jpg" height = "350" border="5"/> 
           <figcaption><b>Left:</b> A LOD model that was generated on the server and is being displayed in the client's browser.
             <br></br><b>Right:</b> A high resolution screenshot of the full cube being rendered on the server, captured from an offscreen buffer.
           </figcaption>
@@ -55,7 +55,7 @@ export default function Server() {
              be parallelized. 
           The graph below details these results:
           <div className="text-center">
-          <img className="border" src="LOD-Time.png"/>
+          <img className="border" src="/assets/LOD-Time.png"/>
           </div>
         </p>
         <h5><b>The time taken to capture and render a high-resolution screenshot</b></h5>
@@ -72,7 +72,7 @@ export default function Server() {
           cubes with acceptable render times.
         </p>
         <div className="text-center">
-        <img src="HQ-Time.png"/>
+        <img src="/assets/HQ-Time.png"/>
         </div>
       </div>
   

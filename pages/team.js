@@ -5,13 +5,13 @@ export default function Team() {
       <div className="container row justify-content-space-between ">
         <h5 className="description mb-5 col">
           Jonathan Weideman (WDMJON001)
-          <img src="Jono.jpg" height="300px" className="mt-5"/>
+          <img src="/assets/Jono.jpg" height="300px" className="mt-5"/>
 
           </h5>
 
         <h5 className="description mb-5 col">
           Shuaib Parker (PRKSHU001) <br/>
-          <img src="shuaib.jpeg" height="300px" className="mt-5"/>
+          <img src="/assets/shuaib.jpeg" height="300px" className="mt-5"/>
           </h5> 
       
       </div>

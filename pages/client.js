@@ -10,7 +10,7 @@ export default function Client() {
       </p>
       <div className="h-50">
         <div className="text-center">
-        <img className="border" src="./full-ui.png" height="400" className="mb-5 " />
+        <img className="border" src="./assets/full-ui.png" height="400" className="mb-5 " />
         </div>
         <ul>
          <li>A: File selector - Used for selecting the file to visualize</li>
@@ -39,7 +39,7 @@ export default function Client() {
       <p>The server-to-client latency showed workable speeds, but the latency linearly increased with cube size. This is a bit concerning when we consider having to render very large data cubes. It suggests that perhaps we need to rethink our downsampling approach.
         The graph below details these results.
         <div className="text-center">
-        <img className="border" src="latency.png"/>
+        <img className="border" src="/assets/latency.png"/>
         </div>
       </p>
       <h5 className="mt-5 mb-5">Frames-per-second</h5>
@@ -51,7 +51,7 @@ export default function Client() {
       </p>
       <div className="text-center">
 
-      <img className="border" src="fps.png"/>
+      <img className="border" src="/assets/fps.png"/>
     </div>
     </div>
 

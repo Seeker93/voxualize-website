@@ -14,7 +14,7 @@ export default function Home() {
               <p className="description text-white mb-5">
                 <i>A hybrid approch to volume rendering</i>
               </p>
-              <img className="border" className="border" src="./logo.png" height="200px" />
+              <img className="border" className="border" src="./assets/logo.png" height="200px" />
             </div>
           </div>
         </div>
@@ -63,7 +63,7 @@ export default function Home() {
           The sequence diagram below details the communication between the client and server.
         </p>
         <div className="text-center mt-5 mb-5">
-          <img className="border" className="border" src="sequence.png" ></img>
+          <img className="border" className="border" src="/assets/sequence.png" ></img>
         </div>
         <p className="description">
           The client and server sections contain the specific details about their implementation.
